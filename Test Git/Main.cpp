@@ -18,7 +18,10 @@ int main()
 	double d1 = 14.7;
 	int i1 = 3;
 	cout << CountSum(d1, i1) << endl;
-	cout << CountSum(18.2, 2) << endl;
+	cout << CountSum<double, double>(18, 2.1) << endl;
+
+	double res = 7.2 + 1;
+	cout << res << endl;
 
 	return 0;
 }
